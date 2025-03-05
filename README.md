@@ -42,20 +42,25 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![image](https://github.com/Hariveeraprasad-2006/OS-Linux-commands-Shell-script/assets/145049988/e3ad88c9-fa3b-4121-a67f-b833a9aa25de)
+![Screenshot from 2025-03-05 20-42-11](https://github.com/user-attachments/assets/b254fcf7-5e57-46d4-85c8-f9a7f2d8b3cb)
+
 cat < file2
 ## OUTPUT
-![image](https://github.com/Hariveeraprasad-2006/OS-Linux-commands-Shell-script/assets/145049988/31925f5f-1bbd-4be6-a79a-608ccf3ba235)
+![Screenshot from 2025-03-05 20-43-37](https://github.com/user-attachments/assets/bb50636d-ef7b-444d-8360-40fc9fa950ca)
+
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- ![image](https://github.com/Hariveeraprasad-2006/OS-Linux-commands-Shell-script/assets/145049988/3389e68c-7726-476f-9f1b-e533f5e50f60)
+![Screenshot from 2025-03-05 20-46-16](https://github.com/user-attachments/assets/be2f6a5c-ee2a-44cd-9ff3-517ed97f9512)
+
 comm file1 file2
  ## OUTPUT
-![image](https://github.com/Hariveeraprasad-2006/OS-Linux-commands-Shell-script/assets/145049988/b2a156fd-ffdf-4131-bc33-3edd002602e3) 
+ ![Screenshot from 2025-03-05 20-49-33](https://github.com/user-attachments/assets/9415f21d-12aa-4c38-a472-7649d0e9cbec)
+
 diff file1 file2
 ## OUTPUT
-![image](https://github.com/Hariveeraprasad-2006/OS-Linux-commands-Shell-script/assets/145049988/abbeb276-39b6-4cab-9aa1-f4db06d279d1)
+![Screenshot from 2025-03-05 20-50-54](https://github.com/user-attachments/assets/12363060-d29f-4861-81b8-03de1e7873a0)
+
 #Filters
 
 ### Create the following files file11, file22 as follows:
@@ -77,16 +82,19 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![image](https://github.com/Hariveeraprasad-2006/OS-Linux-commands-Shell-script/assets/145049988/951c1653-42f1-43dd-9b12-556ecebfa654)
+![Screenshot from 2025-03-05 20-59-28](https://github.com/user-attachments/assets/ae04e831-4e0e-41e9-9666-3a7d8ef5e078)
+
 cut -d "|" -f 1 file22
 ## OUTPUT
-![image](https://github.com/Hariveeraprasad-2006/OS-Linux-commands-Shell-script/assets/145049988/10f91521-6bfb-41da-a08d-1890324c68c3)
+![Screenshot from 2025-03-05 21-03-14](https://github.com/user-attachments/assets/f8ba7a39-58a6-4bc1-9722-c3ab95fb286a)
+
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![image](https://github.com/Hariveeraprasad-2006/OS-Linux-commands-Shell-script/assets/145049988/16df1d30-efb7-4d42-a082-8a0496f3c5f8)
+![Screenshot from 2025-03-05 21-04-25](https://github.com/user-attachments/assets/9b455fd4-708b-4b2e-a919-17c4be392f55)
+
 
 
 cat < newfile 
@@ -102,7 +110,7 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
-![image](https://github.com/Hariveeraprasad-2006/OS-Linux-commands-Shell-script/assets/145049988/a4e3202e-cd4c-4a31-b30d-c6f80760a057)
+![Screenshot from 2025-03-05 21-27-24](https://github.com/user-attachments/assets/c4f90da3-b963-4762-b52c-30f808df7acb)
 
 
 grep hello newfile 
